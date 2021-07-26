@@ -1,20 +1,18 @@
 import React, { useState } from 'react'
 
 
-const Display = (props) => {
+const Display = ({ counter }) => {
   return (
-    <div>{props.counter}</div>
+    <div>{counter}</div>
   )
 }
 
 // Eriytetään button
-const Button = (props) => {
-  return (
-    <button onClick={props.handleClick}>
-      {props.text}
-    </button>
-  )
-}
+const Button = ({ handleClick, text }) => (
+  <button onClick={handleClick}>
+    {text}
+  </button>
+)
 
 const App = () => {
   // Komponentin määrittelevä funktio. Antaa tilan
