@@ -1,5 +1,8 @@
 # Fullstack 2021
 
+# Eteneminen
+
+Olet osassa 1d)
 # Tehtävät
 
 ## Osa 0
