@@ -1,5 +1,21 @@
 import React, { useState } from 'react'
 
+
+const Display = (props) => {
+  return (
+    <div>{props.counter}</div>
+  )
+}
+
+// Eriytetään button
+const Button = (props) => {
+  return (
+    <button onClick={props.handleClick}>
+      {props.text}
+    </button>
+  )
+}
+
 const App = () => {
   // Komponentin määrittelevä funktio. Antaa tilan
   // sekä määrittelee alkuarvoksi nollan. Alkiot
@@ -10,22 +26,19 @@ const App = () => {
   // Eriytetään nappien tahtumienkäsittelijät omiksi komponentin
   // sisältäviksi apufunktioiksi.
   const increaseByOne = () => setCounter(counter + 1)
-
+  const decreaseByOne = () => setCounter(counter - 1)
   const setToZero = () => setCounter(0)
 
-  // setTimeout(
-  //   () => setCounter(counter + 1),
-  //   1000
-  // )
 
 
   console.log("Rendering... ", counter)
 
   return (
     <div>
-      <div>{ counter }</div>
-      <button onClick={increaseByOne}>plus</button>
-      <button onClick={setToZero}>zero</button>
+      <Display counter={counter} />
+      <Button handleClick={increaseByOne} text='plus' />
+      <Button handleClick={setToZero} text='zero' />
+      <Button handleClick={decreaseByOne} text='minus' />
     </div>
   )
 }
