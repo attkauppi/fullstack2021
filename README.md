@@ -2,7 +2,7 @@
 
 # Eteneminen
 
-Olet osassa 1d)
+Olet osassa 2
 # Tehtävät
 
 ## Osa 0
