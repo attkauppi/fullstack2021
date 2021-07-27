@@ -20,3 +20,5 @@ Olet osassa 1d)
 * [1.11 Uniface step 5](./tehtavat/osa1/unicafe_step6/README.md)
 * [1.12 Anekdootit step 1](./tehtavat/osa1/anekdootit_step1/README.md)
 * [1.13 Anekdootit step 2](./tehtavat/osa1/anekdootit_step2/README.md)
+* [1.14 Anekdootit step 3](./tehtavat/osa1/anekdootit_step3/README.md)
+
