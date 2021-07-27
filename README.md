@@ -13,3 +13,4 @@ Olet osassa 1d)
 
 * [1.1 - 1.5. Kurssitiedot](./tehtavat/osa1/kurssitiedot) 
 * [1.6 Uniface step 1](./tehtavat/osa1/unicafe_step1)
+* [1.7 Uniface step 2](./tehtavat/osa1/unicafe_step2)
