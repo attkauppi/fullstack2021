@@ -7,7 +7,10 @@ Olet osassa 2
 
 ## Osa 0
 
-* **TEKEMÄTTÄ**
+* 0.1 - 0.3 olivat lukutehtäviä
+* [0.4 Uusi muistiinpano](./tehtavat/osa0/osa04/README.md)
+* [0.5 SPA-sekvenssikaavio](./tehtavat/osa0/osa05/README.md)
+* [0.6 SPA ja uusi muistiinpano -sekvenssikaavio](./tehtavat/osa0/osa06/README.md)
 
 ## Osa 1
 

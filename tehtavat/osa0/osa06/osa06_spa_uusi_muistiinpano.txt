@@ -1,0 +1,21 @@
+title SPA (0.6) - uusi muistiinpano
+
+note over selain:
+Aiemmin palvelimelta ladattu spa.js
+on rekisteröinyt käyttöön tapahtumankäsittelijän,
+joka ottaa vastaan lähetetyt lomakkeet. Kun lomake
+lähetetään, tapahtumankäsittelijä estää sivun uudelleen
+lataamisen, lisää lomakkeen vastaanottaman note:n tekstin
+muistiinpanojen listalle. Tämän jälkeen selain vielä
+piirtää näytölle täydentyneen muistiinpanojen listan.
+
+Vasta nyt lomakkeen kautta saatu uusi muistiinpano
+lähetetään palvelimelle.
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over palvelin:
+Palvelin lisää uuden note:n
+ylläpitämälleen notes-listalle
+end note
