@@ -25,3 +25,5 @@ Olet osassa 2
 * [1.13 Anekdootit step 2](./tehtavat/osa1/anekdootit_step2/README.md)
 * [1.14 Anekdootit step 3](./tehtavat/osa1/anekdootit_step3/README.md)
 
+## Osa 2
+
