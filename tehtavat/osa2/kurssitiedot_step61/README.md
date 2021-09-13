@@ -1,1 +1,0 @@
-# Osa 1, tehtävät 1.1 ja 1.5 (Kurssitiedot)
