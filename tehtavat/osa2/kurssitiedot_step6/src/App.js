@@ -1,49 +1,25 @@
-import React from 'react'
-import Course from './components/Course'
+import logo from './logo.svg';
+import './App.css';
 
-// Tehtävä 1.3, Kurssitiedot käyttää olioita
-
-const App = () => {
-  const course = {
-    name: 'Half Stack application development',
-    id: 1,
-    parts: [
-      {
-        name: 'Fundamentals of React',
-        exercises: 10,
-        id: 1
-      },
-      {
-        name: 'Using props to pass data',
-        exercises: 7,
-        id: 2
-      },
-      {
-        name: 'State of a component',
-        exercises: 14,
-        id: 3
-      }
-    ]
-  }
-
-  
+function App() {
   return (
-    <div>
-      <Course course={course} />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  )
+  );
 }
 
-
-//   return (
-//     <div>
-//       <Header course={course} />
-//       <Content parts={course.parts} /> 
-//       {/* Huom kuinka tässä luotiin uusi lista
-//       nimeltä tota. Tämä sekoitti hirveän pitkään */}
-//       <Total total={course.parts} />
-//     </div>
-//   )
-// }
-
-export default App
+export default App;
