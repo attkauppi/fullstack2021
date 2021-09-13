@@ -27,6 +27,6 @@ Olet osassa 2
 
 ## Osa 2
 
-* [2.1 - 2.2 Kurssitiedot](./tehtavat/osa2/kurssitiedot_step6/README.md) 
+* [2.1 - 2.3 Kurssitiedot](./tehtavat/osa2/kurssitiedot_step6/README.md) 
 
 
