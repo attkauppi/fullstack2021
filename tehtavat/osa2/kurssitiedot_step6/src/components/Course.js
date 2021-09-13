@@ -3,9 +3,6 @@ import Header from './course_components/Header'
 import Content from './course_components/Content'
 import Total from './course_components/Total'
 
-  
-
-
 const Course = ({ course }) => {
     console.log(course)
     return(
