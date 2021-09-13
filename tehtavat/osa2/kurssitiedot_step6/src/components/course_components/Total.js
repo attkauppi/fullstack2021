@@ -16,7 +16,7 @@ const Total = ({parts}) => {
 
       <div>
         <p>
-          {total}
+          <b>total of {total} exercises</b>
         </p>
       </div>
     )
