@@ -30,4 +30,4 @@ Olet osassa 2b)
 * [2.1 - 2.5 Kurssitiedot](./tehtavat/osa2/kurssitiedot_step6/README.md)
 * [2.6 Puhelinluettelo step1](./tehtavat/osa2/puhelinluettelo_step1/README.md)
 * [2.7 Puhelinluettelo step2](./tehtavat/osa2/puhelinluettelo_step2/README.md)
-
+* [2.8 Puhelinluettelo step3](./tehtavat/osa2/puhelinluettelo_step3/README.md)
