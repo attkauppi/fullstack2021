@@ -1,3 +1,3 @@
 # Puhelinluettelo step2
 
-Osan 2b) toinen tehtävä
+Tehtävä 2.7

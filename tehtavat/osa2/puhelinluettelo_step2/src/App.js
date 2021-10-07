@@ -13,13 +13,29 @@ const App = () => {
     const personObject = {
       name: newName,
     }
-    setPersons(persons.concat(personObject))
+    if (isInPersons(personObject)) {
+      alert(`${personObject.name} is already added to phonebook`)
+    } else {
+      setPersons(persons.concat(personObject))
+    }
     setNewName('')
   }
 
   const handleNameChange = (event) => {
     console.log(event.target.value)
     setNewName(event.target.value)
+  }
+
+  const isInPersons = ({name}) => {
+    const addedName = name
+    const foundName = persons.find( () => name === addedName);
+    console.log(foundName)
+    if (typeof foundName == "undefined") {
+      return false
+    } else {
+      return true
+    }
+    
   }
 
   return (
