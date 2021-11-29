@@ -1,6 +1,8 @@
 import React from 'react'
 
-<form onSubmit={addPerson}>
+const PersonForm = ({addPerson}) => {
+  return (
+    <form onSubmit={addPerson}>
         <div>
           name: <input 
             value={newName}
@@ -16,4 +18,6 @@ import React from 'react'
         <div>
           <button type="submit">add</button>
         </div>
-</form>
+    </form>
+  )
+}

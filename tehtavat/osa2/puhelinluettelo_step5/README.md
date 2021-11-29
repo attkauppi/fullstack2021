@@ -1,3 +1,3 @@
-# Puhelinluettelo step4
+# Puhelinluettelo step5
 
-Tehtävä 2.9 - aivan hävyttömän monimutkainen ratkaisu :D
+Tehtävä 2.10 - Kai ok? Ainakin kolme komponenttia erotettu.
