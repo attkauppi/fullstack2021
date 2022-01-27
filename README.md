@@ -2,7 +2,9 @@
 
 # Eteneminen
 
-Olet osassa 2b), tehtävässä 2.11 (maiden tiedot)
+Osan 2b) pakolliset tehtävät on tehty (vapaaehtoisia ei)
+
+==> Siirryit osaan 2c)
 # Tehtävät
 
 ## Osa 0
