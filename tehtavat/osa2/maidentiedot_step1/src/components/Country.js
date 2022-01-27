@@ -5,10 +5,9 @@ const Country = ({ country }) => {
     console.log("Country: ", country)
     console.log(country)
     return (
-        
-        <li>
+        <div>
             {country.name.common}
-        </li>
+        </div>
 
     )
 }

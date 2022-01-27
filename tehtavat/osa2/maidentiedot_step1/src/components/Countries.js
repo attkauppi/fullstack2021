@@ -1,5 +1,6 @@
 import React from 'react'
 import Country from './Country'
+import CountrySingle from './CountrySingle'
 
 const Countries = ({ countries }) => {
 
@@ -11,20 +12,30 @@ const Countries = ({ countries }) => {
     console.log(countries[0])
 
     //if (!Array.isArray(countries[0]) || countries.length) {
-    if (countries[0] == undefined || countries[0].length == 0) {
+    // if (countries.length > 10) {
+    //     return (
+    //         <div>
+    //             Too many matches, specify another filter
+    //         </div>
+
+    //     )
+    // }
+        
+    if (countries[0] == undefined || countries[0].length == 0 || countries.length > 10) {
         return (
-            <div>Nothing searched yet!</div>
+            <div>Too many matches, specify another filter</div>
         )
-    } else {
+    }
+    
+    if (countries.length > 1 && countries.length <= 10) {
         console.log("Hakutuloksia?")
         console.log(countries)
         return (
-            <ul>
+            <div>
                 {countries.map(country =>
                     <Country key={country.name.common} country={country} />    
                 )}
-            </ul>
-
+            </div>
         )
         // console.log("Löydetyt countries.js:sta")
         // console.log(countries)
@@ -37,6 +48,16 @@ const Countries = ({ countries }) => {
         //     </ul>
         // )
     }
+
+    if (countries.length === 1) {
+            return (
+                <div>
+                    {countries.map(country =>
+                        <CountrySingle key={country.name.common} country={country} />
+                    )}
+                </div>
+            )
+        }
 
    
 
