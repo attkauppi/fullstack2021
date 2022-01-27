@@ -2,7 +2,7 @@
 
 # Eteneminen
 
-Olet osassa 2b)
+Olet osassa 2b), tehtävässä 2.11 (maiden tiedot)
 # Tehtävät
 
 ## Osa 0
@@ -32,3 +32,6 @@ Olet osassa 2b)
 * [2.7 Puhelinluettelo step2](./tehtavat/osa2/puhelinluettelo_step2/README.md)
 * [2.8 Puhelinluettelo step3](./tehtavat/osa2/puhelinluettelo_step3/README.md)
 * [2.9 Puhelinluettelo step4](./tehtavat/osa2/puhelinluettelo_step4/README.md)
+* [2.10 Puhelinluettelo step5](./tehtavat/osa2/puhelinluettelo_step5/README.md)
+* [2.11 Puhelinluettelo step6](./tehtavat/osa2/puhelinluettelo_step6/README.md)
+* [2.12 Maiden tiedot step6](./tehtavat/osa2/maidentiedot_step1/README.md)
