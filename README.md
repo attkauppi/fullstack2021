@@ -4,7 +4,7 @@
 
 Osan 2b) pakolliset tehtävät on tehty (vapaaehtoisia ei)
 
-==> Siirryit osaan 2c)
+==> Siirryit osaan 2d)
 # Tehtävät
 
 ## Osa 0
@@ -37,3 +37,7 @@ Osan 2b) pakolliset tehtävät on tehty (vapaaehtoisia ei)
 * [2.10 Puhelinluettelo step5](./tehtavat/osa2/puhelinluettelo_step5/README.md)
 * [2.11 Puhelinluettelo step6](./tehtavat/osa2/puhelinluettelo_step6/README.md)
 * [2.12 Maiden tiedot step6](./tehtavat/osa2/maidentiedot_step1/README.md)
+
+* [2.15 Puhelinluettelo step 7]((./tehtavat/osa2/puhelinluettelo_step7/README.md))
+* [2.16 Puhelinluettelo step 8]((./tehtavat/osa2/puhelinluettelo_step8/README.md))
+
