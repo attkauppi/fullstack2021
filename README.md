@@ -40,4 +40,4 @@ Osan 2b) pakolliset tehtävät on tehty (vapaaehtoisia ei)
 
 * [2.15 Puhelinluettelo step 7]((./tehtavat/osa2/puhelinluettelo_step7/README.md))
 * [2.16 Puhelinluettelo step 8]((./tehtavat/osa2/puhelinluettelo_step8/README.md))
-
+* [2.17 Puhelinluettelo step 9](./tehtavat/osa2/puhelinluettelo_step9/README.md))
