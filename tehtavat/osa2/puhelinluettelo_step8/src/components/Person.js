@@ -6,8 +6,7 @@ const Person = ({ person }) => {
   return (
     <li>
       {person.name} {person.phone}
-      // Tämä nyt on varmasti kaikkien taiteen sääntöjen vastaista
-      // mutta en keksinyt muutakaan tähän hätään.
+
       <button  onClick={() => {
         if (window.confirm('Are you sure you wish to delete this item?')) personsService.remove(person.id).then(window.location.reload(true)) }} >
               Delete

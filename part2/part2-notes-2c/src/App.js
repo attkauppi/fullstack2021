@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import Note from './components/Note'
 import noteService from './services/notes'
+import Notification from './components/Notification'
+
 
 const App = () => {
   const [notes, setNotes] = useState([])
   const [newNote, setNewNote] = useState('a new note...')
   // Tärkeiden muistiinpanojen filtteröinti
   const [showAll, setShowAll] = useState(true)
+  const [errorMessage, setErrorMessage] = useState('some error happened...')
+
 
   useEffect(() => {
     noteService
@@ -27,10 +31,17 @@ const App = () => {
         setNotes(notes.map(note => note.id !== id ? note : returnedNote))
       })
       .catch(error => {
-        alert(
-          `the note '${note.content}' was already deleted from the server`
+        // alert(
+        //   `the note '${note.content}' was already deleted from the server`
+        // )
+        setErrorMessage(
+          `Note '${note.content}' was already removed from the server`
         )
-        setNotes(notes.filter(n => n.id !== id))
+        setTimeout(() => {
+          setErrorMessage(null)
+        }, 500)
+        setNotes(notes.filter(n => n.id != id))
+
       })
   }
 
@@ -66,6 +77,7 @@ const App = () => {
   return (
     <div>
       <h1>Notes</h1>
+      <Notification message={errorMessage} />
       <div>
         <button onClick={() => setShowAll(!showAll)}>
           show {showAll ? 'important' : 'all' }

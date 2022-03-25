@@ -1,3 +1,3 @@
-# Puhelinluettelo step9
+# Puhelinluettelo step10
 
-Eli tehtävä 2.17 - tuhoaminen puhelinluettelossa.
+Eli tehtävä 2.18 - Kun olemassa olevalle henkilölle lisätään numero, korvataan jo lisätty numero (PUT)
